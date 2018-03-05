@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Com.CRM.ContactTest.CreateContact"/>
+      <class name="Com.CRM.OrganizationTest.CreateOrganization"/>
+      <class name="Com.CRM.DeleteOrganizationTest.DeleteOrganizationWhnItContainsContactAndOppertunity"/>
+      <class name="Com.CMR.EndToEndTest.CreateOpertunityUsingOrg_Campaign"/>
+      <class name="Com.CRM.ContactTest.CreateContactWithOrganization"/>
+      <class name="Com.CRM.ContactTest.CreateContactWithImage"/>
+      <class name="Com.CRM.OrganizationTest.CreateOrganizationWithType"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

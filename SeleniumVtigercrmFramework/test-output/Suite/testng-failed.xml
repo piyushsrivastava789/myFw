@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Com.CRM.ContactTest.CreateContactWithImage">
+        <methods>
+          <include name="login"/>
+          <include name="createContactWithImageTest"/>
+          <include name="launchBrowser"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Com.CRM.ContactTest.CreateContactWithImage -->
+      <class name="Com.CRM.OrganizationTest.CreateOrganizationWithType">
+        <methods>
+          <include name="login"/>
+          <include name="launchBrowser"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Com.CRM.OrganizationTest.CreateOrganizationWithType -->
+      <class name="Com.CRM.ContactTest.CreateContact">
+        <methods>
+          <include name="login"/>
+          <include name="launchBrowser"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Com.CRM.ContactTest.CreateContact -->
+      <class name="Com.CRM.DeleteOrganizationTest.DeleteOrganizationWhnItContainsContactAndOppertunity">
+        <methods>
+          <include name="login"/>
+          <include name="launchBrowser"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Com.CRM.DeleteOrganizationTest.DeleteOrganizationWhnItContainsContactAndOppertunity -->
+      <class name="Com.CRM.OrganizationTest.CreateOrganization">
+        <methods>
+          <include name="login"/>
+          <include name="launchBrowser"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Com.CRM.OrganizationTest.CreateOrganization -->
+      <class name="Com.CMR.EndToEndTest.CreateOpertunityUsingOrg_Campaign">
+        <methods>
+          <include name="login"/>
+          <include name="launchBrowser"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Com.CMR.EndToEndTest.CreateOpertunityUsingOrg_Campaign -->
+      <class name="Com.CRM.ContactTest.CreateContactWithOrganization">
+        <methods>
+          <include name="login"/>
+          <include name="launchBrowser"/>
+          <include name="logout"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Com.CRM.ContactTest.CreateContactWithOrganization -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
